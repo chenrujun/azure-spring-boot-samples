@@ -9,7 +9,6 @@ This tutorial will teach you how to protect your web service by https://docs.mic
 
 == Work as web application
 
-[[Sample-01-Web-application]]
 === Sample 01: Web application
 
 Sample project: <<./sample-01-web-application/README.adoc#chapter-link, web-application-1-simple-sample>>
