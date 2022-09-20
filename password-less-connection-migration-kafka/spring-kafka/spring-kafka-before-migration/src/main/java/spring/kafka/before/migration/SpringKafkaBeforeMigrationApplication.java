@@ -12,7 +12,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 @SpringBootApplication
 public class SpringKafkaBeforeMigrationApplication {
 
-    private static final String TOPIC_NAME = "SpringKafkaBeforeMigrationApplication topic";
+    private static final String TOPIC_NAME = "SpringKafkaBeforeMigrationApplicationTopic";
 
     public static void main(String[] args) {
         SpringApplication.run(SpringKafkaBeforeMigrationApplication.class, args);
@@ -29,13 +29,12 @@ public class SpringKafkaBeforeMigrationApplication {
     @KafkaListener(id = "myId", topics = TOPIC_NAME)
     public void listen(String in) {
         System.out.println("Received message: " + in);
-        System.out.println(in);
     }
 
     @Bean
     public ApplicationRunner runner(KafkaTemplate<String, String> template) {
         return args -> {
-            String message = "test data";
+            String message = "test data 111";
             System.out.println("Sending message: " + message);
             template.send(TOPIC_NAME, message);
         };
