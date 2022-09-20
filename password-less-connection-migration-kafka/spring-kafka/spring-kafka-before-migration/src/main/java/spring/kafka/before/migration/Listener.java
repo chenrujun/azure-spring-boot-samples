@@ -1,3 +1,5 @@
+package spring.kafka.before.migration;
+
 import org.springframework.kafka.annotation.KafkaListener;
 
 public class Listener {
