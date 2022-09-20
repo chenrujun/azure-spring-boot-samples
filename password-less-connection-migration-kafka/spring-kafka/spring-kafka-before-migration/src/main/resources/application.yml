@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers:
+    properties:
+      security:
+        protocol: SASL_SSL
+      sasl:
+        mechanism: PLAIN
+        jaas:
+          config:
+  profiles:
+    active: develop
