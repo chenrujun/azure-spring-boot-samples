@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    function:
+      definition: consumer;producer
+    stream:
+      bindings:
+        producer-out-0:
+          destination: first-topic
+        consumer-in-0:
+          destination: first-topic
+      kafka:
+        binder:
+          brokers: ${PLACE_HOLDER}
+  kafka:
+    properties:
+      sasl:
+        jaas:
+          config: org.apache.kafka.common.security.plain.PlainLoginModule required
+            username="$ConnectionString" password="${PLACE_HOLDER}";
+        mechanism: PLAIN
+      security:
+        protocol: SASL_SSL
+  profiles:
+    active: develop

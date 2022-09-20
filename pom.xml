@@ -79,6 +79,7 @@
     <module>password-less-connection-migration-kafka/java/before-migration</module>
     <module>password-less-connection-migration-kafka/spring-kafka/spring-kafka-after-migration</module>
     <module>password-less-connection-migration-kafka/spring-kafka/spring-kafka-before-migration</module>
+    <module>password-less-connection-migration-kafka/spring-cloud-stream-binder-kafka/spring-cloud-stream-binder-kafka-before-migration</module>
   </modules>
 
   <dependencyManagement>
