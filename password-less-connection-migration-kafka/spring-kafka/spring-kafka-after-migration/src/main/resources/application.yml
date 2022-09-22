@@ -1,11 +1,11 @@
 spring:
   kafka:
     properties:
-      sasl:
-        jaas:
-          config: org.apache.kafka.common.security.plain.PlainLoginModule required
-            username="$ConnectionString" password="${PLACE_HOLDER}";
-        mechanism: PLAIN
+#      sasl:
+#        jaas:
+#          config: org.apache.kafka.common.security.plain.PlainLoginModule required
+#            username="$ConnectionString" password="${PLACE_HOLDER}";
+#        mechanism: PLAIN
       security:
         protocol: SASL_SSL
     bootstrap-servers: ${PLACE_HOLDER}.servicebus.windows.net:9093
