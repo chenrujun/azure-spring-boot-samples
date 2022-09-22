@@ -11,14 +11,20 @@ spring:
       kafka:
         binder:
           brokers: ${PLACE_HOLDER}
-  kafka:
-    properties:
-      sasl:
-        jaas:
-          config: org.apache.kafka.common.security.plain.PlainLoginModule required
-            username="$ConnectionString" password="${PLACE_HOLDER}";
-        mechanism: PLAIN
-      security:
-        protocol: SASL_SSL
+      binders:
+        kafka:
+          environment:
+            spring:
+              main:
+                sources: com.azure.spring.cloud.autoconfigure.kafka.AzureKafkaSpringCloudStreamConfiguration
+#  kafka:
+#    properties:
+#      sasl:
+#        jaas:
+#          config: org.apache.kafka.common.security.plain.PlainLoginModule required
+#            username="$ConnectionString" password="${PLACE_HOLDER}";
+#        mechanism: PLAIN
+#      security:
+#        protocol: SASL_SSL
   profiles:
     active: develop
