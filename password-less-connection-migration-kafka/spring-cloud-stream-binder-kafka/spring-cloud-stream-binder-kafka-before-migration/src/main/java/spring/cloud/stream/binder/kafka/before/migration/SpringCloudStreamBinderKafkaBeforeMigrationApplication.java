@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import java.util.Date;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
@@ -17,9 +18,9 @@ public class SpringCloudStreamBinderKafkaBeforeMigrationApplication {
     @Bean
     public Supplier<String> producer() {
         return () -> {
-            String string = "Test string";
-            System.out.println("Producing string. string = " + string);
-            return string;
+            String data = "Test data by producer. date = " + new Date();
+            System.out.println("Producing string. data = " + data);
+            return data;
         };
     }
 

@@ -5,6 +5,8 @@ import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import java.util.Date;
+
 @Component
 public class KafkaProducer {
 
@@ -13,8 +15,8 @@ public class KafkaProducer {
 
     @Scheduled(cron = "*/2 * * * * *")
     public void sendMessage(){
-        String message = "test message.";
-        System.out.println("Sending message by streamBridge. message = " + message);
-        streamBridge.send("producer-out-0", message);
+        String data = "test message. date = " + new Date();
+        System.out.println("Sending message by streamBridge. data = " + data);
+        streamBridge.send("producer-out-0", data);
     }
 }
