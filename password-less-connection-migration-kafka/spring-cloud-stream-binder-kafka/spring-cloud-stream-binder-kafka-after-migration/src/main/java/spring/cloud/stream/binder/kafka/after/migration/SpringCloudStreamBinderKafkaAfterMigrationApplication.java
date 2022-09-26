@@ -26,6 +26,6 @@ public class SpringCloudStreamBinderKafkaAfterMigrationApplication {
 
     @Bean
     public Consumer<String> consumer() {
-        return message -> System.out.println("Consuming message. message = " + message);
+        return data -> System.out.println("Consuming message. data = " + data);
     }
 }
