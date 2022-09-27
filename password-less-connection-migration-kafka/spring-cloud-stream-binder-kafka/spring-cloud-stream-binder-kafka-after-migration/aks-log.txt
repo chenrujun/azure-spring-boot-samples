@@ -1,0 +1,1286 @@
+2022-09-27 05:54:52.755  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:54:52.756  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 92 due to node -1 being disconnected (elapsed time since creation: 298ms, elapsed time since send: 298ms, request timeout: 23900ms)
+2022-09-27 05:54:53.622  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:54:53.622  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 95 due to node -1 being disconnected (elapsed time since creation: 102ms, elapsed time since send: 102ms, request timeout: 22837ms)
+2022-09-27 05:54:54.528  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:54:54.528  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 98 due to node -1 being disconnected (elapsed time since creation: 142ms, elapsed time since send: 142ms, request timeout: 21971ms)
+2022-09-27 05:54:55.614  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:54:55.614  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 101 due to node -1 being disconnected (elapsed time since creation: 257ms, elapsed time since send: 257ms, request timeout: 21000ms)
+2022-09-27 05:54:58.023  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:54:58.023  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 104 due to node -1 being disconnected (elapsed time since creation: 1578ms, elapsed time since send: 1578ms, request timeout: 19912ms)
+2022-09-27 05:55:00.414  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:55:00.414  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 107 due to node -1 being disconnected (elapsed time since creation: 1606ms, elapsed time since send: 1606ms, request timeout: 17549ms)
+2022-09-27 05:55:02.727  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:55:02.727  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 110 due to node -1 being disconnected (elapsed time since creation: 1548ms, elapsed time since send: 1548ms, request timeout: 15179ms)
+2022-09-27 05:55:05.800  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:55:05.800  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 113 due to node -1 being disconnected (elapsed time since creation: 2292ms, elapsed time since send: 2292ms, request timeout: 12849ms)
+2022-09-27 05:55:06.865  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:55:06.865  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 116 due to node -1 being disconnected (elapsed time since creation: 290ms, elapsed time since send: 290ms, request timeout: 9782ms)
+2022-09-27 05:55:09.132  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:55:09.132  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 119 due to node -1 being disconnected (elapsed time since creation: 1495ms, elapsed time since send: 1495ms, request timeout: 8720ms)
+2022-09-27 05:55:15.271  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Node -1 disconnected.
+2022-09-27 05:55:15.271  INFO 1 --- [| adminclient-7] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-7] Cancelled in-flight METADATA request with correlation id 122 due to node -1 being disconnected (elapsed time since creation: 5376ms, elapsed time since send: 5376ms, request timeout: 6462ms)
+2022-09-27 05:55:16.357  INFO 1 --- [| adminclient-7] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-7 unregistered
+2022-09-27 05:55:16.357  INFO 1 --- [| adminclient-7] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-7] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call. Call: fetchMetadata
+
+2022-09-27 05:55:16.357  INFO 1 --- [| adminclient-7] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-7] Timed out 1 remaining operation(s) during close.
+2022-09-27 05:55:16.365  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread has been interrupted and will exit.
+2022-09-27 05:55:16.366  INFO 1 --- [| adminclient-7] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-09-27 05:55:16.366  INFO 1 --- [| adminclient-7] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-09-27 05:55:16.366  INFO 1 --- [| adminclient-7] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-09-27 05:55:16.366 ERROR 1 --- [   scheduling-1] o.s.cloud.stream.binding.BindingService  : Failed to create producer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception encountered for first-topic; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:364) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:179) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:89) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:239) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:98) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindProducer(AbstractBinder.java:152) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleProducerBinding$4(BindingService.java:359) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar!/:5.3.22]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_345]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) ~[na:1.8.0_345]
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784) ~[na:1.8.0_345]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928) ~[na:1.8.0_345]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180) ~[kafka-clients-3.1.1.jar!/:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:400) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:374) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:351) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	... 14 common frames omitted
+
+Producing string. data = Test data by producer. date = Tue Sep 27 05:55:16 GMT 2022
+2022-09-27 05:55:16.367 ERROR 1 --- [   scheduling-1] o.s.integration.handler.LoggingHandler   : org.springframework.messaging.MessageDeliveryException: Dispatcher has no subscribers for channel 'application.producer-out-0'.; nested exception is org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=ac9c905a-973e-6814-48bf-d050d00f6a75, timestamp=1664258116367}], failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=ac9c905a-973e-6814-48bf-d050d00f6a75, timestamp=1664258116367}]
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:76)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.router.AbstractMessageRouter.doSend(AbstractMessageRouter.java:213)
+	at org.springframework.integration.router.AbstractMessageRouter.handleMessageInternal(AbstractMessageRouter.java:195)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:56)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:115)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:133)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:196)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.messageReceived(AbstractPollingEndpoint.java:475)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:461)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.pollForMessage(AbstractPollingEndpoint.java:413)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$4(AbstractPollingEndpoint.java:348)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.lambda$execute$0(ErrorHandlingTaskExecutor.java:57)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$5(AbstractPollingEndpoint.java:341)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=ac9c905a-973e-6814-48bf-d050d00f6a75, timestamp=1664258116367}]
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:139)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	... 37 more
+
+2022-09-27 05:55:16.367  INFO 1 --- [   scheduling-1] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [event-hub-namespace-12.servicebus.windows.net:9093]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = class com.azure.spring.cloud.service.implementation.kafka.KafkaOAuth2AuthenticateCallbackHandler
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = OAUTHBEARER
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-09-27 05:55:16.372  INFO 1 --- [   scheduling-1] AbstractAzureServiceClientBuilderFactory : Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2022-09-27 05:55:16.372  WARN 1 --- [   scheduling-1] .f.AbstractAzureHttpClientBuilderFactory : The client properties of an http-based client is of type com.azure.spring.cloud.core.properties.client.ClientProperties
+2022-09-27 05:55:16.372  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential EnvironmentCredential is unavailable.
+2022-09-27 05:55:16.399  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => Managed Identity environment: AZURE VM IMDS ENDPOINT
+2022-09-27 05:55:16.399  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => getToken() result for scopes [https://event-hub-namespace-12.servicebus.windows.net/.default]: SUCCESS
+2022-09-27 05:55:16.399  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential ManagedIdentityCredential returns a token
+2022-09-27 05:55:16.400  INFO 1 --- [   scheduling-1] .o.i.e.ExpiringCredentialRefreshingLogin : Successfully logged in.
+2022-09-27 05:55:16.402  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.1.1
+2022-09-27 05:55:16.402  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 97671528ba54a138
+2022-09-27 05:55:16.402  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1664258116402
+2022-09-27 05:55:16.402  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread started.
+2022-09-27 05:55:16.402  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=null]: Expiring credential valid from Tue Sep 27 05:34:25 GMT 2022 to Wed Sep 28 05:39:25 GMT 2022
+2022-09-27 05:55:16.402  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login sleeping until: Wed Sep 28 01:21:05 GMT 2022
+2022-09-27 05:55:19.170  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:19.170  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 2 due to node -1 being disconnected (elapsed time since creation: 626ms, elapsed time since send: 626ms, request timeout: 27858ms)
+2022-09-27 05:55:21.461  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:21.461  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 5 due to node -1 being disconnected (elapsed time since creation: 286ms, elapsed time since send: 286ms, request timeout: 25227ms)
+2022-09-27 05:55:24.225  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:24.225  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 8 due to node -1 being disconnected (elapsed time since creation: 1874ms, elapsed time since send: 1874ms, request timeout: 24051ms)
+2022-09-27 05:55:25.197  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:25.197  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 11 due to node -1 being disconnected (elapsed time since creation: 182ms, elapsed time since send: 182ms, request timeout: 21387ms)
+2022-09-27 05:55:26.090  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:26.090  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 14 due to node -1 being disconnected (elapsed time since creation: 121ms, elapsed time since send: 121ms, request timeout: 20433ms)
+2022-09-27 05:55:31.619  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:31.619  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 17 due to node -1 being disconnected (elapsed time since creation: 3577ms, elapsed time since send: 3577ms, request timeout: 18360ms)
+2022-09-27 05:55:34.310  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:34.310  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 20 due to node -1 being disconnected (elapsed time since creation: 1826ms, elapsed time since send: 1826ms, request timeout: 13918ms)
+2022-09-27 05:55:36.639  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:36.639  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 23 due to node -1 being disconnected (elapsed time since creation: 1570ms, elapsed time since send: 1570ms, request timeout: 11333ms)
+2022-09-27 05:55:38.905  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:38.905  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 26 due to node -1 being disconnected (elapsed time since creation: 1474ms, elapsed time since send: 1474ms, request timeout: 8971ms)
+2022-09-27 05:55:41.086  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:41.091  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 29 due to node -1 being disconnected (elapsed time since creation: 1411ms, elapsed time since send: 1411ms, request timeout: 6727ms)
+2022-09-27 05:55:42.003  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:42.003  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 32 due to node -1 being disconnected (elapsed time since creation: 97ms, elapsed time since send: 97ms, request timeout: 4496ms)
+2022-09-27 05:55:42.909  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:42.909  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 35 due to node -1 being disconnected (elapsed time since creation: 95ms, elapsed time since send: 95ms, request timeout: 3588ms)
+2022-09-27 05:55:43.920  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:43.921  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 38 due to node -1 being disconnected (elapsed time since creation: 235ms, elapsed time since send: 235ms, request timeout: 2717ms)
+2022-09-27 05:55:44.954  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:44.954  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 41 due to node -1 being disconnected (elapsed time since creation: 203ms, elapsed time since send: 203ms, request timeout: 1651ms)
+2022-09-27 05:55:46.022  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:46.022  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 44 due to node -1 being disconnected (elapsed time since creation: 306ms, elapsed time since send: 306ms, request timeout: 686ms)
+2022-09-27 05:55:46.403  INFO 1 --- [| adminclient-8] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-8] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call. Call: fetchMetadata
+
+2022-09-27 05:55:47.032  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:47.032  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 47 due to node -1 being disconnected (elapsed time since creation: 233ms, elapsed time since send: 233ms, request timeout: 29604ms)
+2022-09-27 05:55:48.128  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:48.128  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 50 due to node -1 being disconnected (elapsed time since creation: 326ms, elapsed time since send: 326ms, request timeout: 28601ms)
+2022-09-27 05:55:49.194  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:49.195  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 53 due to node -1 being disconnected (elapsed time since creation: 268ms, elapsed time since send: 268ms, request timeout: 27477ms)
+2022-09-27 05:55:50.111  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:50.111  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 56 due to node -1 being disconnected (elapsed time since creation: 115ms, elapsed time since send: 115ms, request timeout: 26407ms)
+2022-09-27 05:55:50.989  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:50.989  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 59 due to node -1 being disconnected (elapsed time since creation: 118ms, elapsed time since send: 118ms, request timeout: 25532ms)
+2022-09-27 05:55:51.989  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:51.990  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 62 due to node -1 being disconnected (elapsed time since creation: 228ms, elapsed time since send: 228ms, request timeout: 24642ms)
+2022-09-27 05:55:52.998  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:52.998  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 65 due to node -1 being disconnected (elapsed time since creation: 228ms, elapsed time since send: 228ms, request timeout: 23633ms)
+2022-09-27 05:55:53.953  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:53.953  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 68 due to node -1 being disconnected (elapsed time since creation: 97ms, elapsed time since send: 97ms, request timeout: 22547ms)
+2022-09-27 05:55:54.869  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:54.869  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 71 due to node -1 being disconnected (elapsed time since creation: 142ms, elapsed time since send: 142ms, request timeout: 21676ms)
+2022-09-27 05:55:55.747  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:55.748  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 74 due to node -1 being disconnected (elapsed time since creation: 104ms, elapsed time since send: 104ms, request timeout: 20760ms)
+2022-09-27 05:55:56.649  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:56.650  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 77 due to node -1 being disconnected (elapsed time since creation: 137ms, elapsed time since send: 137ms, request timeout: 19891ms)
+2022-09-27 05:55:57.640  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:57.640  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 80 due to node -1 being disconnected (elapsed time since creation: 196ms, elapsed time since send: 196ms, request timeout: 18959ms)
+2022-09-27 05:55:58.659  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:58.659  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 83 due to node -1 being disconnected (elapsed time since creation: 248ms, elapsed time since send: 248ms, request timeout: 17992ms)
+2022-09-27 05:55:59.716  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:55:59.716  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 86 due to node -1 being disconnected (elapsed time since creation: 276ms, elapsed time since send: 276ms, request timeout: 16963ms)
+2022-09-27 05:56:00.690  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:00.690  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 89 due to node -1 being disconnected (elapsed time since creation: 204ms, elapsed time since send: 204ms, request timeout: 15917ms)
+2022-09-27 05:56:01.746  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:01.746  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 92 due to node -1 being disconnected (elapsed time since creation: 265ms, elapsed time since send: 265ms, request timeout: 14922ms)
+2022-09-27 05:56:02.814  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:02.814  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 95 due to node -1 being disconnected (elapsed time since creation: 308ms, elapsed time since send: 308ms, request timeout: 13897ms)
+2022-09-27 05:56:03.744  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:03.745  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 98 due to node -1 being disconnected (elapsed time since creation: 159ms, elapsed time since send: 159ms, request timeout: 12818ms)
+2022-09-27 05:56:04.787  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:04.787  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 101 due to node -1 being disconnected (elapsed time since creation: 283ms, elapsed time since send: 283ms, request timeout: 11899ms)
+2022-09-27 05:56:05.758  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:05.759  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 104 due to node -1 being disconnected (elapsed time since creation: 205ms, elapsed time since send: 205ms, request timeout: 10850ms)
+2022-09-27 05:56:06.787  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:06.787  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 107 due to node -1 being disconnected (elapsed time since creation: 268ms, elapsed time since send: 268ms, request timeout: 9884ms)
+2022-09-27 05:56:07.753  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:07.753  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 110 due to node -1 being disconnected (elapsed time since creation: 180ms, elapsed time since send: 180ms, request timeout: 8830ms)
+2022-09-27 05:56:08.790  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:08.790  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 113 due to node -1 being disconnected (elapsed time since creation: 279ms, elapsed time since send: 279ms, request timeout: 7892ms)
+2022-09-27 05:56:09.655  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:09.655  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 116 due to node -1 being disconnected (elapsed time since creation: 102ms, elapsed time since send: 102ms, request timeout: 6850ms)
+2022-09-27 05:56:10.640  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:10.641  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 119 due to node -1 being disconnected (elapsed time since creation: 123ms, elapsed time since send: 123ms, request timeout: 5886ms)
+2022-09-27 05:56:13.814  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:13.815  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 122 due to node -1 being disconnected (elapsed time since creation: 2368ms, elapsed time since send: 2368ms, request timeout: 4957ms)
+2022-09-27 05:56:14.975  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Node -1 disconnected.
+2022-09-27 05:56:14.976  INFO 1 --- [| adminclient-8] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-8] Cancelled in-flight METADATA request with correlation id 125 due to node -1 being disconnected (elapsed time since creation: 178ms, elapsed time since send: 178ms, request timeout: 1606ms)
+2022-09-27 05:56:16.403  INFO 1 --- [| adminclient-8] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-8 unregistered
+2022-09-27 05:56:16.403  INFO 1 --- [| adminclient-8] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-8] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2022-09-27 05:56:16.403  INFO 1 --- [| adminclient-8] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-8] Timed out 1 remaining operation(s) during close.
+2022-09-27 05:56:16.406  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread has been interrupted and will exit.
+2022-09-27 05:56:16.406  INFO 1 --- [| adminclient-8] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-09-27 05:56:16.406  INFO 1 --- [| adminclient-8] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-09-27 05:56:16.406  INFO 1 --- [| adminclient-8] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-09-27 05:56:16.407 ERROR 1 --- [   scheduling-1] o.s.cloud.stream.binding.BindingService  : Failed to create consumer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception encountered for first-topic; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:364) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.doProvisionConsumerDestination(KafkaTopicProvisioner.java:248) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:214) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:89) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:427) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:98) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindConsumer(AbstractBinder.java:143) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleConsumerBinding$1(BindingService.java:209) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar!/:5.3.22]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_345]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) ~[na:1.8.0_345]
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784) ~[na:1.8.0_345]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928) ~[na:1.8.0_345]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180) ~[kafka-clients-3.1.1.jar!/:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:400) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:374) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:351) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	... 15 common frames omitted
+
+Producing string. data = Test data by producer. date = Tue Sep 27 05:56:16 GMT 2022
+2022-09-27 05:56:16.409 ERROR 1 --- [   scheduling-1] o.s.integration.handler.LoggingHandler   : org.springframework.messaging.MessageDeliveryException: Dispatcher has no subscribers for channel 'application.producer-out-0'.; nested exception is org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=ce6b4955-e021-ccb2-6c80-fdbdc1067b2a, timestamp=1664258176408}], failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=ce6b4955-e021-ccb2-6c80-fdbdc1067b2a, timestamp=1664258176408}]
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:76)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.router.AbstractMessageRouter.doSend(AbstractMessageRouter.java:213)
+	at org.springframework.integration.router.AbstractMessageRouter.handleMessageInternal(AbstractMessageRouter.java:195)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:56)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:115)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:133)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:196)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.messageReceived(AbstractPollingEndpoint.java:475)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:461)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.pollForMessage(AbstractPollingEndpoint.java:413)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$4(AbstractPollingEndpoint.java:348)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.lambda$execute$0(ErrorHandlingTaskExecutor.java:57)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$5(AbstractPollingEndpoint.java:341)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=ce6b4955-e021-ccb2-6c80-fdbdc1067b2a, timestamp=1664258176408}]
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:139)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	... 37 more
+
+2022-09-27 05:56:16.409  INFO 1 --- [   scheduling-1] o.s.c.s.b.k.p.KafkaTopicProvisioner      : Using kafka topic for outbound: first-topic
+2022-09-27 05:56:16.410  INFO 1 --- [   scheduling-1] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [event-hub-namespace-12.servicebus.windows.net:9093]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = class com.azure.spring.cloud.service.implementation.kafka.KafkaOAuth2AuthenticateCallbackHandler
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = OAUTHBEARER
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-09-27 05:56:16.411  INFO 1 --- [   scheduling-1] AbstractAzureServiceClientBuilderFactory : Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2022-09-27 05:56:16.412  WARN 1 --- [   scheduling-1] .f.AbstractAzureHttpClientBuilderFactory : The client properties of an http-based client is of type com.azure.spring.cloud.core.properties.client.ClientProperties
+2022-09-27 05:56:16.416  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential EnvironmentCredential is unavailable.
+2022-09-27 05:56:16.428  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => Managed Identity environment: AZURE VM IMDS ENDPOINT
+2022-09-27 05:56:16.429  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => getToken() result for scopes [https://event-hub-namespace-12.servicebus.windows.net/.default]: SUCCESS
+2022-09-27 05:56:16.430  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential ManagedIdentityCredential returns a token
+2022-09-27 05:56:16.430  INFO 1 --- [   scheduling-1] .o.i.e.ExpiringCredentialRefreshingLogin : Successfully logged in.
+2022-09-27 05:56:16.439  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread started.
+2022-09-27 05:56:16.441  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.1.1
+2022-09-27 05:56:16.441  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 97671528ba54a138
+2022-09-27 05:56:16.442  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1664258176441
+2022-09-27 05:56:16.439  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=null]: Expiring credential valid from Tue Sep 27 05:34:25 GMT 2022 to Wed Sep 28 05:39:25 GMT 2022
+2022-09-27 05:56:16.446  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login sleeping until: Wed Sep 28 01:13:08 GMT 2022
+2022-09-27 05:56:17.301  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:17.301  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 2 due to node -1 being disconnected (elapsed time since creation: 188ms, elapsed time since send: 188ms, request timeout: 29334ms)
+2022-09-27 05:56:18.281  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:18.282  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 5 due to node -1 being disconnected (elapsed time since creation: 219ms, elapsed time since send: 219ms, request timeout: 28385ms)
+2022-09-27 05:56:19.351  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:19.351  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 8 due to node -1 being disconnected (elapsed time since creation: 309ms, elapsed time since send: 309ms, request timeout: 27405ms)
+2022-09-27 05:56:20.378  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:20.378  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 11 due to node -1 being disconnected (elapsed time since creation: 251ms, elapsed time since send: 251ms, request timeout: 26320ms)
+2022-09-27 05:56:21.293  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:21.293  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 14 due to node -1 being disconnected (elapsed time since creation: 155ms, elapsed time since send: 155ms, request timeout: 25309ms)
+2022-09-27 05:56:22.181  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:22.181  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 17 due to node -1 being disconnected (elapsed time since creation: 128ms, elapsed time since send: 128ms, request timeout: 24394ms)
+2022-09-27 05:56:23.174  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:23.174  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 20 due to node -1 being disconnected (elapsed time since creation: 207ms, elapsed time since send: 207ms, request timeout: 23480ms)
+2022-09-27 05:56:24.228  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:24.228  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 23 due to node -1 being disconnected (elapsed time since creation: 283ms, elapsed time since send: 283ms, request timeout: 22502ms)
+2022-09-27 05:56:25.321  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:25.321  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 26 due to node -1 being disconnected (elapsed time since creation: 322ms, elapsed time since send: 322ms, request timeout: 21448ms)
+2022-09-27 05:56:26.202  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:26.203  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 29 due to node -1 being disconnected (elapsed time since creation: 111ms, elapsed time since send: 111ms, request timeout: 20356ms)
+2022-09-27 05:56:27.114  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:27.115  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 32 due to node -1 being disconnected (elapsed time since creation: 151ms, elapsed time since send: 151ms, request timeout: 19484ms)
+2022-09-27 05:56:28.136  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:28.136  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 35 due to node -1 being disconnected (elapsed time since creation: 201ms, elapsed time since send: 201ms, request timeout: 18512ms)
+2022-09-27 05:56:29.010  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:29.011  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 38 due to node -1 being disconnected (elapsed time since creation: 100ms, elapsed time since send: 100ms, request timeout: 17537ms)
+2022-09-27 05:56:29.926  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:29.926  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 41 due to node -1 being disconnected (elapsed time since creation: 139ms, elapsed time since send: 139ms, request timeout: 16660ms)
+2022-09-27 05:56:30.993  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:30.993  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 44 due to node -1 being disconnected (elapsed time since creation: 303ms, elapsed time since send: 303ms, request timeout: 15757ms)
+2022-09-27 05:56:32.082  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:32.082  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 47 due to node -1 being disconnected (elapsed time since creation: 316ms, elapsed time since send: 316ms, request timeout: 14681ms)
+2022-09-27 05:56:33.100  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:33.100  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 50 due to node -1 being disconnected (elapsed time since creation: 233ms, elapsed time since send: 233ms, request timeout: 13580ms)
+2022-09-27 05:56:34.146  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:34.146  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 53 due to node -1 being disconnected (elapsed time since creation: 277ms, elapsed time since send: 277ms, request timeout: 12578ms)
+2022-09-27 05:56:35.094  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:35.094  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 56 due to node -1 being disconnected (elapsed time since creation: 187ms, elapsed time since send: 187ms, request timeout: 11540ms)
+2022-09-27 05:56:35.976  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:35.976  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 59 due to node -1 being disconnected (elapsed time since creation: 119ms, elapsed time since send: 119ms, request timeout: 10590ms)
+2022-09-27 05:56:37.045  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:37.045  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 62 due to node -1 being disconnected (elapsed time since creation: 303ms, elapsed time since send: 303ms, request timeout: 9705ms)
+2022-09-27 05:56:37.940  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:37.940  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 65 due to node -1 being disconnected (elapsed time since creation: 118ms, elapsed time since send: 118ms, request timeout: 8625ms)
+2022-09-27 05:56:38.942  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:38.943  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 68 due to node -1 being disconnected (elapsed time since creation: 229ms, elapsed time since send: 229ms, request timeout: 7734ms)
+2022-09-27 05:56:39.852  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:39.852  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 71 due to node -1 being disconnected (elapsed time since creation: 125ms, elapsed time since send: 125ms, request timeout: 6720ms)
+2022-09-27 05:56:40.813  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:40.813  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 74 due to node -1 being disconnected (elapsed time since creation: 158ms, elapsed time since send: 158ms, request timeout: 5792ms)
+2022-09-27 05:56:41.770  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:41.770  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 77 due to node -1 being disconnected (elapsed time since creation: 196ms, elapsed time since send: 196ms, request timeout: 4873ms)
+2022-09-27 05:56:42.781  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:42.782  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 80 due to node -1 being disconnected (elapsed time since creation: 226ms, elapsed time since send: 226ms, request timeout: 3892ms)
+2022-09-27 05:56:43.800  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:43.800  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 83 due to node -1 being disconnected (elapsed time since creation: 256ms, elapsed time since send: 256ms, request timeout: 2903ms)
+2022-09-27 05:56:44.834  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:44.834  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 86 due to node -1 being disconnected (elapsed time since creation: 260ms, elapsed time since send: 260ms, request timeout: 1873ms)
+2022-09-27 05:56:45.834  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:45.834  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 89 due to node -1 being disconnected (elapsed time since creation: 222ms, elapsed time since send: 222ms, request timeout: 835ms)
+2022-09-27 05:56:46.448  INFO 1 --- [| adminclient-9] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-9] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call. Call: fetchMetadata
+
+2022-09-27 05:56:46.726  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:46.731  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 92 due to node -1 being disconnected (elapsed time since creation: 126ms, elapsed time since send: 126ms, request timeout: 29848ms)
+2022-09-27 05:56:47.777  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:47.778  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 95 due to node -1 being disconnected (elapsed time since creation: 272ms, elapsed time since send: 272ms, request timeout: 28943ms)
+2022-09-27 05:56:48.759  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:48.760  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 98 due to node -1 being disconnected (elapsed time since creation: 190ms, elapsed time since send: 190ms, request timeout: 27879ms)
+2022-09-27 05:56:49.666  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:49.666  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 101 due to node -1 being disconnected (elapsed time since creation: 135ms, elapsed time since send: 135ms, request timeout: 26917ms)
+2022-09-27 05:56:50.595  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:50.596  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 104 due to node -1 being disconnected (elapsed time since creation: 106ms, elapsed time since send: 106ms, request timeout: 25959ms)
+2022-09-27 05:56:51.701  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:51.701  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 107 due to node -1 being disconnected (elapsed time since creation: 329ms, elapsed time since send: 329ms, request timeout: 25076ms)
+2022-09-27 05:56:52.591  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:52.591  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 110 due to node -1 being disconnected (elapsed time since creation: 130ms, elapsed time since send: 130ms, request timeout: 23987ms)
+2022-09-27 05:56:53.646  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:53.646  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 113 due to node -1 being disconnected (elapsed time since creation: 235ms, elapsed time since send: 235ms, request timeout: 23037ms)
+2022-09-27 05:56:54.684  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:54.685  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 116 due to node -1 being disconnected (elapsed time since creation: 265ms, elapsed time since send: 265ms, request timeout: 22029ms)
+2022-09-27 05:56:55.692  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:55.693  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 119 due to node -1 being disconnected (elapsed time since creation: 235ms, elapsed time since send: 235ms, request timeout: 20991ms)
+2022-09-27 05:56:56.643  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:56.643  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 122 due to node -1 being disconnected (elapsed time since creation: 178ms, elapsed time since send: 178ms, request timeout: 19983ms)
+2022-09-27 05:56:57.588  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:57.588  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 125 due to node -1 being disconnected (elapsed time since creation: 184ms, elapsed time since send: 184ms, request timeout: 19044ms)
+2022-09-27 05:56:58.746  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:56:58.746  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 128 due to node -1 being disconnected (elapsed time since creation: 295ms, elapsed time since send: 295ms, request timeout: 17997ms)
+2022-09-27 05:57:01.154  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:57:01.154  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 131 due to node -1 being disconnected (elapsed time since creation: 1637ms, elapsed time since send: 1637ms, request timeout: 16931ms)
+2022-09-27 05:57:03.523  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:57:03.523  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 134 due to node -1 being disconnected (elapsed time since creation: 1606ms, elapsed time since send: 1606ms, request timeout: 14531ms)
+2022-09-27 05:57:05.801  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:57:05.801  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 137 due to node -1 being disconnected (elapsed time since creation: 1518ms, elapsed time since send: 1518ms, request timeout: 12165ms)
+2022-09-27 05:57:06.854  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:57:06.855  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 140 due to node -1 being disconnected (elapsed time since creation: 231ms, elapsed time since send: 231ms, request timeout: 9825ms)
+2022-09-27 05:57:09.025  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:57:09.025  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 143 due to node -1 being disconnected (elapsed time since creation: 1404ms, elapsed time since send: 1404ms, request timeout: 8827ms)
+2022-09-27 05:57:14.414  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:57:14.414  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 146 due to node -1 being disconnected (elapsed time since creation: 4610ms, elapsed time since send: 4610ms, request timeout: 6644ms)
+2022-09-27 05:57:15.862  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Node -1 disconnected.
+2022-09-27 05:57:15.862  INFO 1 --- [| adminclient-9] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-9] Cancelled in-flight METADATA request with correlation id 149 due to node -1 being disconnected (elapsed time since creation: 206ms, elapsed time since send: 206ms, request timeout: 792ms)
+2022-09-27 05:57:16.448  INFO 1 --- [| adminclient-9] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-9 unregistered
+2022-09-27 05:57:16.448  INFO 1 --- [| adminclient-9] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-9] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call. Call: fetchMetadata
+
+2022-09-27 05:57:16.448  INFO 1 --- [| adminclient-9] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-9] Timed out 1 remaining operation(s) during close.
+2022-09-27 05:57:16.451  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread has been interrupted and will exit.
+2022-09-27 05:57:16.452  INFO 1 --- [| adminclient-9] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-09-27 05:57:16.452  INFO 1 --- [| adminclient-9] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-09-27 05:57:16.452  INFO 1 --- [| adminclient-9] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-09-27 05:57:16.452 ERROR 1 --- [   scheduling-1] o.s.cloud.stream.binding.BindingService  : Failed to create producer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception encountered for first-topic; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:364) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:179) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:89) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:239) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:98) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindProducer(AbstractBinder.java:152) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleProducerBinding$4(BindingService.java:359) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar!/:5.3.22]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_345]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) ~[na:1.8.0_345]
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784) ~[na:1.8.0_345]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928) ~[na:1.8.0_345]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180) ~[kafka-clients-3.1.1.jar!/:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:400) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:374) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:351) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	... 14 common frames omitted
+
+Producing string. data = Test data by producer. date = Tue Sep 27 05:57:16 GMT 2022
+2022-09-27 05:57:16.454 ERROR 1 --- [   scheduling-1] o.s.integration.handler.LoggingHandler   : org.springframework.messaging.MessageDeliveryException: Dispatcher has no subscribers for channel 'application.producer-out-0'.; nested exception is org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=6860da6a-79bd-04f2-f124-23e372ac3cc8, timestamp=1664258236453}], failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=6860da6a-79bd-04f2-f124-23e372ac3cc8, timestamp=1664258236453}]
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:76)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.router.AbstractMessageRouter.doSend(AbstractMessageRouter.java:213)
+	at org.springframework.integration.router.AbstractMessageRouter.handleMessageInternal(AbstractMessageRouter.java:195)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:56)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:115)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:133)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:196)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.messageReceived(AbstractPollingEndpoint.java:475)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:461)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.pollForMessage(AbstractPollingEndpoint.java:413)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$4(AbstractPollingEndpoint.java:348)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.lambda$execute$0(ErrorHandlingTaskExecutor.java:57)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$5(AbstractPollingEndpoint.java:341)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=6860da6a-79bd-04f2-f124-23e372ac3cc8, timestamp=1664258236453}]
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:139)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	... 37 more
+
+2022-09-27 05:57:16.454  INFO 1 --- [   scheduling-1] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [event-hub-namespace-12.servicebus.windows.net:9093]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = class com.azure.spring.cloud.service.implementation.kafka.KafkaOAuth2AuthenticateCallbackHandler
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = OAUTHBEARER
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-09-27 05:57:16.455  INFO 1 --- [   scheduling-1] AbstractAzureServiceClientBuilderFactory : Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2022-09-27 05:57:16.455  WARN 1 --- [   scheduling-1] .f.AbstractAzureHttpClientBuilderFactory : The client properties of an http-based client is of type com.azure.spring.cloud.core.properties.client.ClientProperties
+2022-09-27 05:57:16.456  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential EnvironmentCredential is unavailable.
+2022-09-27 05:57:16.471  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => Managed Identity environment: AZURE VM IMDS ENDPOINT
+2022-09-27 05:57:16.472  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => getToken() result for scopes [https://event-hub-namespace-12.servicebus.windows.net/.default]: SUCCESS
+2022-09-27 05:57:16.472  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential ManagedIdentityCredential returns a token
+2022-09-27 05:57:16.472  INFO 1 --- [   scheduling-1] .o.i.e.ExpiringCredentialRefreshingLogin : Successfully logged in.
+2022-09-27 05:57:16.475  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.1.1
+2022-09-27 05:57:16.475  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 97671528ba54a138
+2022-09-27 05:57:16.475  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1664258236475
+2022-09-27 05:57:16.476  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread started.
+2022-09-27 05:57:16.476  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=null]: Expiring credential valid from Tue Sep 27 05:34:25 GMT 2022 to Wed Sep 28 05:39:25 GMT 2022
+2022-09-27 05:57:16.476  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login sleeping until: Wed Sep 28 01:16:10 GMT 2022
+2022-09-27 05:57:17.430  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:17.431  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 2 due to node -1 being disconnected (elapsed time since creation: 283ms, elapsed time since send: 283ms, request timeout: 29329ms)
+2022-09-27 05:57:18.401  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:18.401  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 5 due to node -1 being disconnected (elapsed time since creation: 201ms, elapsed time since send: 201ms, request timeout: 28276ms)
+2022-09-27 05:57:19.296  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:19.296  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 8 due to node -1 being disconnected (elapsed time since creation: 98ms, elapsed time since send: 98ms, request timeout: 27278ms)
+2022-09-27 05:57:20.206  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:20.206  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 11 due to node -1 being disconnected (elapsed time since creation: 135ms, elapsed time since send: 135ms, request timeout: 26405ms)
+2022-09-27 05:57:21.138  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:21.138  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 14 due to node -1 being disconnected (elapsed time since creation: 173ms, elapsed time since send: 173ms, request timeout: 25511ms)
+2022-09-27 05:57:22.186  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:22.186  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 17 due to node -1 being disconnected (elapsed time since creation: 277ms, elapsed time since send: 277ms, request timeout: 24567ms)
+2022-09-27 05:57:23.228  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:23.229  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 20 due to node -1 being disconnected (elapsed time since creation: 260ms, elapsed time since send: 260ms, request timeout: 23508ms)
+2022-09-27 05:57:24.257  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:24.258  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 23 due to node -1 being disconnected (elapsed time since creation: 256ms, elapsed time since send: 256ms, request timeout: 22475ms)
+2022-09-27 05:57:25.199  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:25.199  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 26 due to node -1 being disconnected (elapsed time since creation: 173ms, elapsed time since send: 173ms, request timeout: 21450ms)
+2022-09-27 05:57:26.174  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:26.174  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 29 due to node -1 being disconnected (elapsed time since creation: 207ms, elapsed time since send: 207ms, request timeout: 20509ms)
+2022-09-27 05:57:27.276  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:27.276  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 32 due to node -1 being disconnected (elapsed time since creation: 320ms, elapsed time since send: 320ms, request timeout: 19520ms)
+2022-09-27 05:57:28.295  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:28.295  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 35 due to node -1 being disconnected (elapsed time since creation: 244ms, elapsed time since send: 244ms, request timeout: 18425ms)
+2022-09-27 05:57:29.324  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:29.324  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 38 due to node -1 being disconnected (elapsed time since creation: 216ms, elapsed time since send: 216ms, request timeout: 17369ms)
+2022-09-27 05:57:30.354  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:30.354  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 41 due to node -1 being disconnected (elapsed time since creation: 254ms, elapsed time since send: 254ms, request timeout: 16376ms)
+2022-09-27 05:57:31.342  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:31.342  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 44 due to node -1 being disconnected (elapsed time since creation: 226ms, elapsed time since send: 226ms, request timeout: 15360ms)
+2022-09-27 05:57:32.225  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:32.225  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 47 due to node -1 being disconnected (elapsed time since creation: 116ms, elapsed time since send: 116ms, request timeout: 14367ms)
+2022-09-27 05:57:33.233  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:33.233  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 50 due to node -1 being disconnected (elapsed time since creation: 245ms, elapsed time since send: 245ms, request timeout: 13488ms)
+2022-09-27 05:57:34.310  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:34.310  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 53 due to node -1 being disconnected (elapsed time since creation: 307ms, elapsed time since send: 307ms, request timeout: 12473ms)
+2022-09-27 05:57:35.201  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:35.201  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 56 due to node -1 being disconnected (elapsed time since creation: 128ms, elapsed time since send: 128ms, request timeout: 11403ms)
+2022-09-27 05:57:36.191  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:36.191  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 59 due to node -1 being disconnected (elapsed time since creation: 229ms, elapsed time since send: 229ms, request timeout: 10514ms)
+2022-09-27 05:57:37.131  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:37.132  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 62 due to node -1 being disconnected (elapsed time since creation: 163ms, elapsed time since send: 163ms, request timeout: 9508ms)
+2022-09-27 05:57:38.108  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:38.108  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 65 due to node -1 being disconnected (elapsed time since creation: 182ms, elapsed time since send: 182ms, request timeout: 8550ms)
+2022-09-27 05:57:39.139  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:39.139  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 68 due to node -1 being disconnected (elapsed time since creation: 258ms, elapsed time since send: 258ms, request timeout: 7595ms)
+2022-09-27 05:57:40.192  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:40.192  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 71 due to node -1 being disconnected (elapsed time since creation: 293ms, elapsed time since send: 293ms, request timeout: 6577ms)
+2022-09-27 05:57:41.278  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:41.278  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 74 due to node -1 being disconnected (elapsed time since creation: 312ms, elapsed time since send: 312ms, request timeout: 5510ms)
+2022-09-27 05:57:42.344  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:42.344  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 77 due to node -1 being disconnected (elapsed time since creation: 306ms, elapsed time since send: 306ms, request timeout: 4438ms)
+2022-09-27 05:57:43.248  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:43.248  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 80 due to node -1 being disconnected (elapsed time since creation: 119ms, elapsed time since send: 119ms, request timeout: 3347ms)
+2022-09-27 05:57:44.278  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:44.278  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 83 due to node -1 being disconnected (elapsed time since creation: 259ms, elapsed time since send: 259ms, request timeout: 2457ms)
+2022-09-27 05:57:45.199  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:45.199  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 86 due to node -1 being disconnected (elapsed time since creation: 104ms, elapsed time since send: 104ms, request timeout: 1381ms)
+2022-09-27 05:57:46.214  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:46.214  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 89 due to node -1 being disconnected (elapsed time since creation: 253ms, elapsed time since send: 253ms, request timeout: 515ms)
+2022-09-27 05:57:46.477  INFO 1 --- [ adminclient-10] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-10] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call. Call: fetchMetadata
+
+2022-09-27 05:57:47.226  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:47.226  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 92 due to node -1 being disconnected (elapsed time since creation: 251ms, elapsed time since send: 251ms, request timeout: 29502ms)
+2022-09-27 05:57:48.166  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:48.166  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 95 due to node -1 being disconnected (elapsed time since creation: 172ms, elapsed time since send: 172ms, request timeout: 28483ms)
+2022-09-27 05:57:49.223  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:49.224  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 98 due to node -1 being disconnected (elapsed time since creation: 287ms, elapsed time since send: 287ms, request timeout: 27541ms)
+2022-09-27 05:57:50.103  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:50.103  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 101 due to node -1 being disconnected (elapsed time since creation: 116ms, elapsed time since send: 116ms, request timeout: 26490ms)
+2022-09-27 05:57:51.193  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:51.193  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 104 due to node -1 being disconnected (elapsed time since creation: 326ms, elapsed time since send: 326ms, request timeout: 25610ms)
+2022-09-27 05:57:52.193  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:52.193  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 107 due to node -1 being disconnected (elapsed time since creation: 233ms, elapsed time since send: 233ms, request timeout: 24517ms)
+2022-09-27 05:57:53.171  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:53.171  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 110 due to node -1 being disconnected (elapsed time since creation: 175ms, elapsed time since send: 175ms, request timeout: 23481ms)
+2022-09-27 05:57:54.027  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:54.027  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 113 due to node -1 being disconnected (elapsed time since creation: 92ms, elapsed time since send: 92ms, request timeout: 22542ms)
+2022-09-27 05:57:54.983  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:54.983  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 116 due to node -1 being disconnected (elapsed time since creation: 196ms, elapsed time since send: 196ms, request timeout: 21690ms)
+2022-09-27 05:57:56.027  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:56.028  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 119 due to node -1 being disconnected (elapsed time since creation: 240ms, elapsed time since send: 240ms, request timeout: 20690ms)
+2022-09-27 05:57:57.042  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:57.042  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 122 due to node -1 being disconnected (elapsed time since creation: 244ms, elapsed time since send: 244ms, request timeout: 19679ms)
+2022-09-27 05:57:57.963  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:57.963  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 125 due to node -1 being disconnected (elapsed time since creation: 158ms, elapsed time since send: 158ms, request timeout: 18672ms)
+2022-09-27 05:57:59.032  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:57:59.032  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 128 due to node -1 being disconnected (elapsed time since creation: 296ms, elapsed time since send: 296ms, request timeout: 17741ms)
+2022-09-27 05:58:00.036  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:00.036  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 131 due to node -1 being disconnected (elapsed time since creation: 195ms, elapsed time since send: 195ms, request timeout: 16636ms)
+2022-09-27 05:58:01.026  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:01.026  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 134 due to node -1 being disconnected (elapsed time since creation: 224ms, elapsed time since send: 224ms, request timeout: 15675ms)
+2022-09-27 05:58:01.961  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:01.961  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 137 due to node -1 being disconnected (elapsed time since creation: 172ms, elapsed time since send: 172ms, request timeout: 14688ms)
+2022-09-27 05:58:03.008  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:03.008  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 140 due to node -1 being disconnected (elapsed time since creation: 282ms, elapsed time since send: 282ms, request timeout: 13751ms)
+2022-09-27 05:58:03.960  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:03.960  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 143 due to node -1 being disconnected (elapsed time since creation: 181ms, elapsed time since send: 181ms, request timeout: 12698ms)
+2022-09-27 05:58:04.997  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:04.997  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 146 due to node -1 being disconnected (elapsed time since creation: 256ms, elapsed time since send: 256ms, request timeout: 11736ms)
+2022-09-27 05:58:05.910  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:05.910  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 149 due to node -1 being disconnected (elapsed time since creation: 148ms, elapsed time since send: 148ms, request timeout: 10715ms)
+2022-09-27 05:58:06.857  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:06.857  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 152 due to node -1 being disconnected (elapsed time since creation: 184ms, elapsed time since send: 184ms, request timeout: 9804ms)
+2022-09-27 05:58:07.800  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:07.800  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 155 due to node -1 being disconnected (elapsed time since creation: 174ms, elapsed time since send: 174ms, request timeout: 8851ms)
+2022-09-27 05:58:08.684  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:08.684  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 158 due to node -1 being disconnected (elapsed time since creation: 120ms, elapsed time since send: 120ms, request timeout: 7913ms)
+2022-09-27 05:58:09.586  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:09.586  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 161 due to node -1 being disconnected (elapsed time since creation: 140ms, elapsed time since send: 140ms, request timeout: 7031ms)
+2022-09-27 05:58:10.695  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:10.695  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 164 due to node -1 being disconnected (elapsed time since creation: 303ms, elapsed time since send: 303ms, request timeout: 6085ms)
+2022-09-27 05:58:12.005  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:12.005  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 167 due to node -1 being disconnected (elapsed time since creation: 389ms, elapsed time since send: 389ms, request timeout: 4861ms)
+2022-09-27 05:58:13.054  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:13.054  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 170 due to node -1 being disconnected (elapsed time since creation: 206ms, elapsed time since send: 206ms, request timeout: 3629ms)
+2022-09-27 05:58:14.254  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:14.254  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 173 due to node -1 being disconnected (elapsed time since creation: 243ms, elapsed time since send: 243ms, request timeout: 2466ms)
+2022-09-27 05:58:15.300  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:15.300  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 176 due to node -1 being disconnected (elapsed time since creation: 195ms, elapsed time since send: 195ms, request timeout: 1372ms)
+2022-09-27 05:58:16.423  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Node -1 disconnected.
+2022-09-27 05:58:16.423  INFO 1 --- [ adminclient-10] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-10] Cancelled in-flight METADATA request with correlation id 179 due to node -1 being disconnected (elapsed time since creation: 331ms, elapsed time since send: 331ms, request timeout: 385ms)
+2022-09-27 05:58:16.477  INFO 1 --- [ adminclient-10] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-10 unregistered
+2022-09-27 05:58:16.477  INFO 1 --- [ adminclient-10] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-10] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2022-09-27 05:58:16.477  INFO 1 --- [ adminclient-10] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-10] Timed out 1 remaining operation(s) during close.
+2022-09-27 05:58:16.480  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread has been interrupted and will exit.
+2022-09-27 05:58:16.480  INFO 1 --- [ adminclient-10] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-09-27 05:58:16.480  INFO 1 --- [ adminclient-10] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-09-27 05:58:16.482  INFO 1 --- [ adminclient-10] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-09-27 05:58:16.482 ERROR 1 --- [   scheduling-1] o.s.cloud.stream.binding.BindingService  : Failed to create consumer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception encountered for first-topic; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:364) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.doProvisionConsumerDestination(KafkaTopicProvisioner.java:248) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:214) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionConsumerDestination(KafkaTopicProvisioner.java:89) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:427) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindConsumer(AbstractMessageChannelBinder.java:98) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindConsumer(AbstractBinder.java:143) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleConsumerBinding$1(BindingService.java:209) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar!/:5.3.22]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_345]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) ~[na:1.8.0_345]
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784) ~[na:1.8.0_345]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928) ~[na:1.8.0_345]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180) ~[kafka-clients-3.1.1.jar!/:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:400) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:374) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:351) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	... 15 common frames omitted
+
+Producing string. data = Test data by producer. date = Tue Sep 27 05:58:16 GMT 2022
+2022-09-27 05:58:16.484 ERROR 1 --- [   scheduling-1] o.s.integration.handler.LoggingHandler   : org.springframework.messaging.MessageDeliveryException: Dispatcher has no subscribers for channel 'application.producer-out-0'.; nested exception is org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=975ef6a4-2498-eec5-76e3-2578865e9ba8, timestamp=1664258296483}], failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=975ef6a4-2498-eec5-76e3-2578865e9ba8, timestamp=1664258296483}]
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:76)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.router.AbstractMessageRouter.doSend(AbstractMessageRouter.java:213)
+	at org.springframework.integration.router.AbstractMessageRouter.handleMessageInternal(AbstractMessageRouter.java:195)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:56)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:115)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:133)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:196)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.messageReceived(AbstractPollingEndpoint.java:475)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:461)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.pollForMessage(AbstractPollingEndpoint.java:413)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$4(AbstractPollingEndpoint.java:348)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.lambda$execute$0(ErrorHandlingTaskExecutor.java:57)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$5(AbstractPollingEndpoint.java:341)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=975ef6a4-2498-eec5-76e3-2578865e9ba8, timestamp=1664258296483}]
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:139)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	... 37 more
+
+2022-09-27 05:58:16.485  INFO 1 --- [   scheduling-1] o.s.c.s.b.k.p.KafkaTopicProvisioner      : Using kafka topic for outbound: first-topic
+2022-09-27 05:58:16.485  INFO 1 --- [   scheduling-1] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [event-hub-namespace-12.servicebus.windows.net:9093]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = class com.azure.spring.cloud.service.implementation.kafka.KafkaOAuth2AuthenticateCallbackHandler
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = OAUTHBEARER
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-09-27 05:58:16.487  INFO 1 --- [   scheduling-1] AbstractAzureServiceClientBuilderFactory : Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2022-09-27 05:58:16.487  WARN 1 --- [   scheduling-1] .f.AbstractAzureHttpClientBuilderFactory : The client properties of an http-based client is of type com.azure.spring.cloud.core.properties.client.ClientProperties
+2022-09-27 05:58:16.488  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential EnvironmentCredential is unavailable.
+2022-09-27 05:58:16.504  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => Managed Identity environment: AZURE VM IMDS ENDPOINT
+2022-09-27 05:58:16.505  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => getToken() result for scopes [https://event-hub-namespace-12.servicebus.windows.net/.default]: SUCCESS
+2022-09-27 05:58:16.505  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential ManagedIdentityCredential returns a token
+2022-09-27 05:58:16.506  INFO 1 --- [   scheduling-1] .o.i.e.ExpiringCredentialRefreshingLogin : Successfully logged in.
+2022-09-27 05:58:16.510  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.1.1
+2022-09-27 05:58:16.510  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 97671528ba54a138
+2022-09-27 05:58:16.510  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1664258296510
+2022-09-27 05:58:16.510  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread started.
+2022-09-27 05:58:16.510  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=null]: Expiring credential valid from Tue Sep 27 05:34:25 GMT 2022 to Wed Sep 28 05:39:25 GMT 2022
+2022-09-27 05:58:16.510  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login sleeping until: Wed Sep 28 00:52:14 GMT 2022
+2022-09-27 05:58:17.499  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:17.500  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 2 due to node -1 being disconnected (elapsed time since creation: 302ms, elapsed time since send: 302ms, request timeout: 29314ms)
+2022-09-27 05:58:18.466  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:18.466  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 5 due to node -1 being disconnected (elapsed time since creation: 195ms, elapsed time since send: 195ms, request timeout: 28240ms)
+2022-09-27 05:58:19.346  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:19.346  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 8 due to node -1 being disconnected (elapsed time since creation: 115ms, elapsed time since send: 115ms, request timeout: 27280ms)
+2022-09-27 05:58:20.357  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:20.357  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 11 due to node -1 being disconnected (elapsed time since creation: 242ms, elapsed time since send: 242ms, request timeout: 26396ms)
+2022-09-27 05:58:21.328  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:21.330  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 14 due to node -1 being disconnected (elapsed time since creation: 154ms, elapsed time since send: 154ms, request timeout: 25337ms)
+2022-09-27 05:58:22.278  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:22.278  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 17 due to node -1 being disconnected (elapsed time since creation: 180ms, elapsed time since send: 180ms, request timeout: 24414ms)
+2022-09-27 05:58:23.287  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:23.287  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 20 due to node -1 being disconnected (elapsed time since creation: 245ms, elapsed time since send: 245ms, request timeout: 23469ms)
+2022-09-27 05:58:24.309  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:24.309  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 23 due to node -1 being disconnected (elapsed time since creation: 259ms, elapsed time since send: 259ms, request timeout: 22461ms)
+2022-09-27 05:58:25.190  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:25.190  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 26 due to node -1 being disconnected (elapsed time since creation: 108ms, elapsed time since send: 108ms, request timeout: 21429ms)
+2022-09-27 05:58:26.191  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:26.191  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 29 due to node -1 being disconnected (elapsed time since creation: 240ms, elapsed time since send: 240ms, request timeout: 20560ms)
+2022-09-27 05:58:27.197  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:27.197  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 32 due to node -1 being disconnected (elapsed time since creation: 232ms, elapsed time since send: 232ms, request timeout: 19546ms)
+2022-09-27 05:58:28.147  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:28.147  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 35 due to node -1 being disconnected (elapsed time since creation: 135ms, elapsed time since send: 135ms, request timeout: 18499ms)
+2022-09-27 05:58:29.056  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:29.056  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 38 due to node -1 being disconnected (elapsed time since creation: 145ms, elapsed time since send: 145ms, request timeout: 17600ms)
+2022-09-27 05:58:30.068  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:30.068  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 41 due to node -1 being disconnected (elapsed time since creation: 204ms, elapsed time since send: 204ms, request timeout: 16647ms)
+2022-09-27 05:58:31.121  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:31.121  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 44 due to node -1 being disconnected (elapsed time since creation: 253ms, elapsed time since send: 253ms, request timeout: 15643ms)
+2022-09-27 05:58:31.979  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:31.979  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 47 due to node -1 being disconnected (elapsed time since creation: 100ms, elapsed time since send: 100ms, request timeout: 14632ms)
+2022-09-27 05:58:33.024  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:33.024  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 50 due to node -1 being disconnected (elapsed time since creation: 280ms, elapsed time since send: 280ms, request timeout: 13767ms)
+2022-09-27 05:58:35.433  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:35.433  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 53 due to node -1 being disconnected (elapsed time since creation: 1640ms, elapsed time since send: 1640ms, request timeout: 12718ms)
+2022-09-27 05:58:37.886  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:37.886  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 56 due to node -1 being disconnected (elapsed time since creation: 1664ms, elapsed time since send: 1664ms, request timeout: 10289ms)
+2022-09-27 05:58:38.876  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:38.877  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 59 due to node -1 being disconnected (elapsed time since creation: 219ms, elapsed time since send: 219ms, request timeout: 7854ms)
+2022-09-27 05:58:39.767  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:39.767  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 62 due to node -1 being disconnected (elapsed time since creation: 130ms, elapsed time since send: 130ms, request timeout: 6874ms)
+2022-09-27 05:58:40.738  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:40.738  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 65 due to node -1 being disconnected (elapsed time since creation: 212ms, elapsed time since send: 212ms, request timeout: 5985ms)
+2022-09-27 05:58:41.862  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:41.862  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 68 due to node -1 being disconnected (elapsed time since creation: 349ms, elapsed time since send: 349ms, request timeout: 4998ms)
+2022-09-27 05:58:42.773  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:42.773  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 71 due to node -1 being disconnected (elapsed time since creation: 143ms, elapsed time since send: 143ms, request timeout: 3881ms)
+2022-09-27 05:58:43.840  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:43.840  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 74 due to node -1 being disconnected (elapsed time since creation: 306ms, elapsed time since send: 306ms, request timeout: 2977ms)
+2022-09-27 05:58:44.745  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:44.746  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 77 due to node -1 being disconnected (elapsed time since creation: 124ms, elapsed time since send: 124ms, request timeout: 1890ms)
+2022-09-27 05:58:45.841  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:45.841  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 80 due to node -1 being disconnected (elapsed time since creation: 336ms, elapsed time since send: 336ms, request timeout: 1006ms)
+2022-09-27 05:58:46.512  INFO 1 --- [ adminclient-11] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-11] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: Timed out waiting to send the call. Call: fetchMetadata
+
+2022-09-27 05:58:46.894  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:46.894  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 83 due to node -1 being disconnected (elapsed time since creation: 272ms, elapsed time since send: 272ms, request timeout: 29890ms)
+2022-09-27 05:58:47.822  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:47.823  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 86 due to node -1 being disconnected (elapsed time since creation: 161ms, elapsed time since send: 161ms, request timeout: 28851ms)
+2022-09-27 05:58:48.693  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:48.693  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 89 due to node -1 being disconnected (elapsed time since creation: 91ms, elapsed time since send: 91ms, request timeout: 27910ms)
+2022-09-27 05:58:49.606  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:49.607  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 92 due to node -1 being disconnected (elapsed time since creation: 143ms, elapsed time since send: 143ms, request timeout: 27049ms)
+2022-09-27 05:58:50.507  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:50.507  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 95 due to node -1 being disconnected (elapsed time since creation: 140ms, elapsed time since send: 140ms, request timeout: 26145ms)
+2022-09-27 05:58:51.579  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:51.579  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 98 due to node -1 being disconnected (elapsed time since creation: 313ms, elapsed time since send: 313ms, request timeout: 25246ms)
+2022-09-27 05:58:52.492  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:52.492  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 101 due to node -1 being disconnected (elapsed time since creation: 136ms, elapsed time since send: 136ms, request timeout: 24156ms)
+2022-09-27 05:58:53.462  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:53.462  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 104 due to node -1 being disconnected (elapsed time since creation: 186ms, elapsed time since send: 186ms, request timeout: 23236ms)
+2022-09-27 05:58:54.473  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:54.473  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 107 due to node -1 being disconnected (elapsed time since creation: 235ms, elapsed time since send: 235ms, request timeout: 22274ms)
+2022-09-27 05:58:55.385  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:55.385  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 110 due to node -1 being disconnected (elapsed time since creation: 140ms, elapsed time since send: 140ms, request timeout: 21267ms)
+2022-09-27 05:58:56.414  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:56.415  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 113 due to node -1 being disconnected (elapsed time since creation: 269ms, elapsed time since send: 269ms, request timeout: 20367ms)
+2022-09-27 05:58:57.403  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:57.403  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 116 due to node -1 being disconnected (elapsed time since creation: 218ms, elapsed time since send: 218ms, request timeout: 19327ms)
+2022-09-27 05:58:58.419  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:58.419  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 119 due to node -1 being disconnected (elapsed time since creation: 244ms, elapsed time since send: 244ms, request timeout: 18337ms)
+2022-09-27 05:58:59.434  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:58:59.435  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 122 due to node -1 being disconnected (elapsed time since creation: 242ms, elapsed time since send: 242ms, request timeout: 17320ms)
+2022-09-27 05:59:00.530  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:00.530  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 125 due to node -1 being disconnected (elapsed time since creation: 324ms, elapsed time since send: 324ms, request timeout: 16306ms)
+2022-09-27 05:59:01.636  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:01.637  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 128 due to node -1 being disconnected (elapsed time since creation: 314ms, elapsed time since send: 314ms, request timeout: 15190ms)
+2022-09-27 05:59:02.669  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:02.670  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 131 due to node -1 being disconnected (elapsed time since creation: 271ms, elapsed time since send: 271ms, request timeout: 14114ms)
+2022-09-27 05:59:03.725  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:03.725  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 134 due to node -1 being disconnected (elapsed time since creation: 224ms, elapsed time since send: 224ms, request timeout: 13011ms)
+2022-09-27 05:59:04.715  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:04.715  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 137 due to node -1 being disconnected (elapsed time since creation: 226ms, elapsed time since send: 226ms, request timeout: 12023ms)
+2022-09-27 05:59:05.686  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:05.687  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 140 due to node -1 being disconnected (elapsed time since creation: 193ms, elapsed time since send: 193ms, request timeout: 11019ms)
+2022-09-27 05:59:06.701  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:06.701  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 143 due to node -1 being disconnected (elapsed time since creation: 212ms, elapsed time since send: 212ms, request timeout: 10023ms)
+2022-09-27 05:59:07.771  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:07.771  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 146 due to node -1 being disconnected (elapsed time since creation: 299ms, elapsed time since send: 299ms, request timeout: 9040ms)
+2022-09-27 05:59:08.807  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:08.807  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 149 due to node -1 being disconnected (elapsed time since creation: 275ms, elapsed time since send: 275ms, request timeout: 7980ms)
+2022-09-27 05:59:09.853  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:09.853  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 152 due to node -1 being disconnected (elapsed time since creation: 281ms, elapsed time since send: 281ms, request timeout: 6940ms)
+2022-09-27 05:59:11.798  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:11.799  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 155 due to node -1 being disconnected (elapsed time since creation: 614ms, elapsed time since send: 614ms, request timeout: 5328ms)
+2022-09-27 05:59:15.347  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Node -1 disconnected.
+2022-09-27 05:59:15.347  INFO 1 --- [ adminclient-11] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-11] Cancelled in-flight METADATA request with correlation id 158 due to node -1 being disconnected (elapsed time since creation: 1099ms, elapsed time since send: 1099ms, request timeout: 2264ms)
+2022-09-27 05:59:16.512  INFO 1 --- [ adminclient-11] o.a.kafka.common.utils.AppInfoParser     : App info kafka.admin.client for adminclient-11 unregistered
+2022-09-27 05:59:16.512  INFO 1 --- [ adminclient-11] o.a.k.c.a.i.AdminMetadataManager         : [AdminClient clientId=adminclient-11] Metadata update failed
+
+org.apache.kafka.common.errors.TimeoutException: The AdminClient thread has exited. Call: fetchMetadata
+
+2022-09-27 05:59:16.512  INFO 1 --- [ adminclient-11] o.a.k.clients.admin.KafkaAdminClient     : [AdminClient clientId=adminclient-11] Timed out 1 remaining operation(s) during close.
+2022-09-27 05:59:16.517  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread has been interrupted and will exit.
+2022-09-27 05:59:16.517  INFO 1 --- [ adminclient-11] org.apache.kafka.common.metrics.Metrics  : Metrics scheduler closed
+2022-09-27 05:59:16.517  INFO 1 --- [ adminclient-11] org.apache.kafka.common.metrics.Metrics  : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-09-27 05:59:16.517  INFO 1 --- [ adminclient-11] org.apache.kafka.common.metrics.Metrics  : Metrics reporters closed
+2022-09-27 05:59:16.518 ERROR 1 --- [   scheduling-1] o.s.cloud.stream.binding.BindingService  : Failed to create producer binding; retrying in 30 seconds
+
+org.springframework.cloud.stream.provisioning.ProvisioningException: Provisioning exception encountered for first-topic; nested exception is java.util.concurrent.TimeoutException
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:364) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:179) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.provisionProducerDestination(KafkaTopicProvisioner.java:89) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:239) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractMessageChannelBinder.doBindProducer(AbstractMessageChannelBinder.java:98) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.AbstractBinder.bindProducer(AbstractBinder.java:152) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binding.BindingService.lambda$rescheduleProducerBinding$4(BindingService.java:359) ~[spring-cloud-stream-3.2.5.jar!/:3.2.5]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar!/:5.3.22]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0_345]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) ~[na:1.8.0_345]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_345]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_345]
+	at java.lang.Thread.run(Thread.java:750) ~[na:1.8.0_345]
+Caused by: java.util.concurrent.TimeoutException: null
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784) ~[na:1.8.0_345]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928) ~[na:1.8.0_345]
+	at org.apache.kafka.common.internals.KafkaFutureImpl.get(KafkaFutureImpl.java:180) ~[kafka-clients-3.1.1.jar!/:na]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicAndPartitions(KafkaTopicProvisioner.java:400) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopicIfNecessary(KafkaTopicProvisioner.java:374) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	at org.springframework.cloud.stream.binder.kafka.provisioning.KafkaTopicProvisioner.createTopic(KafkaTopicProvisioner.java:351) ~[spring-cloud-stream-binder-kafka-core-3.2.5.jar!/:3.2.5]
+	... 14 common frames omitted
+
+Producing string. data = Test data by producer. date = Tue Sep 27 05:59:16 GMT 2022
+2022-09-27 05:59:16.519 ERROR 1 --- [   scheduling-1] o.s.integration.handler.LoggingHandler   : org.springframework.messaging.MessageDeliveryException: Dispatcher has no subscribers for channel 'application.producer-out-0'.; nested exception is org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=f1fbfb51-57d2-4dc3-676f-5c2ea585badc, timestamp=1664258356519}], failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=f1fbfb51-57d2-4dc3-676f-5c2ea585badc, timestamp=1664258356519}]
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:76)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.router.AbstractMessageRouter.doSend(AbstractMessageRouter.java:213)
+	at org.springframework.integration.router.AbstractMessageRouter.handleMessageInternal(AbstractMessageRouter.java:195)
+	at org.springframework.integration.handler.AbstractMessageHandler.handleMessage(AbstractMessageHandler.java:56)
+	at org.springframework.integration.dispatcher.AbstractDispatcher.tryOptimizedDispatch(AbstractDispatcher.java:115)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:133)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:317)
+	at org.springframework.integration.channel.AbstractMessageChannel.send(AbstractMessageChannel.java:272)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:187)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:166)
+	at org.springframework.messaging.core.GenericMessagingTemplate.doSend(GenericMessagingTemplate.java:47)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.integration.endpoint.SourcePollingChannelAdapter.handleMessage(SourcePollingChannelAdapter.java:196)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.messageReceived(AbstractPollingEndpoint.java:475)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.doPoll(AbstractPollingEndpoint.java:461)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.pollForMessage(AbstractPollingEndpoint.java:413)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$4(AbstractPollingEndpoint.java:348)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.lambda$execute$0(ErrorHandlingTaskExecutor.java:57)
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50)
+	at org.springframework.integration.util.ErrorHandlingTaskExecutor.execute(ErrorHandlingTaskExecutor.java:55)
+	at org.springframework.integration.endpoint.AbstractPollingEndpoint.lambda$createPoller$5(AbstractPollingEndpoint.java:341)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.springframework.integration.MessageDispatchingException: Dispatcher has no subscribers, failedMessage=GenericMessage [payload=byte[58], headers={contentType=application/json, id=f1fbfb51-57d2-4dc3-676f-5c2ea585badc, timestamp=1664258356519}]
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.doDispatch(UnicastingDispatcher.java:139)
+	at org.springframework.integration.dispatcher.UnicastingDispatcher.dispatch(UnicastingDispatcher.java:106)
+	at org.springframework.integration.channel.AbstractSubscribableChannel.doSend(AbstractSubscribableChannel.java:72)
+	... 37 more
+
+2022-09-27 05:59:16.520  INFO 1 --- [   scheduling-1] o.a.k.clients.admin.AdminClientConfig    : AdminClientConfig values: 
+	bootstrap.servers = [event-hub-namespace-12.servicebus.windows.net:9093]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = class com.azure.spring.cloud.service.implementation.kafka.KafkaOAuth2AuthenticateCallbackHandler
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = OAUTHBEARER
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2022-09-27 05:59:16.521  INFO 1 --- [   scheduling-1] AbstractAzureServiceClientBuilderFactory : Will configure the default credential of type DefaultAzureCredential for class com.azure.identity.DefaultAzureCredentialBuilder.
+2022-09-27 05:59:16.521  WARN 1 --- [   scheduling-1] .f.AbstractAzureHttpClientBuilderFactory : The client properties of an http-based client is of type com.azure.spring.cloud.core.properties.client.ClientProperties
+2022-09-27 05:59:16.522  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential EnvironmentCredential is unavailable.
+2022-09-27 05:59:16.538  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => Managed Identity environment: AZURE VM IMDS ENDPOINT
+2022-09-27 05:59:16.539  INFO 1 --- [   scheduling-1] c.a.identity.ManagedIdentityCredential   : Azure Identity => getToken() result for scopes [https://event-hub-namespace-12.servicebus.windows.net/.default]: SUCCESS
+2022-09-27 05:59:16.540  INFO 1 --- [   scheduling-1] c.azure.identity.ChainedTokenCredential  : Azure Identity => Attempted credential ManagedIdentityCredential returns a token
+2022-09-27 05:59:16.541  INFO 1 --- [   scheduling-1] .o.i.e.ExpiringCredentialRefreshingLogin : Successfully logged in.
+2022-09-27 05:59:16.543  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.1.1
+2022-09-27 05:59:16.543  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 97671528ba54a138
+2022-09-27 05:59:16.544  INFO 1 --- [   scheduling-1] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1664258356543
+2022-09-27 05:59:16.544  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login thread started.
+2022-09-27 05:59:16.544  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=null]: Expiring credential valid from Tue Sep 27 05:34:25 GMT 2022 to Wed Sep 28 05:39:25 GMT 2022
+2022-09-27 05:59:16.544  INFO 1 --- [gin-thread-null] .o.i.e.ExpiringCredentialRefreshingLogin : [Principal=:null]: Expiring credential re-login sleeping until: Wed Sep 28 02:02:38 GMT 2022
+2022-09-27 05:59:18.196  INFO 1 --- [ adminclient-12] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-12] Node -1 disconnected.
+2022-09-27 05:59:18.197  INFO 1 --- [ adminclient-12] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-12] Cancelled in-flight METADATA request with correlation id 2 due to node -1 being disconnected (elapsed time since creation: 336ms, elapsed time since send: 336ms, request timeout: 28684ms)
+2022-09-27 05:59:19.324  INFO 1 --- [ adminclient-12] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-12] Node -1 disconnected.
+2022-09-27 05:59:19.324  INFO 1 --- [ adminclient-12] org.apache.kafka.clients.NetworkClient   : [AdminClient clientId=adminclient-12] Cancelled in-flight METADATA request with correlation id 5 due to node -1 being disconnected (elapsed time since creation: 281ms, elapsed time since send: 281ms, request timeout: 27501ms)
