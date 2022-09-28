@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: rujche-api
+  name: rujche-api-2-0-0-1
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: rujche-api
+      app: rujche-api-2-0-0-1
   template:
     metadata:
       labels:
-        app: rujche-api
+        app: rujche-api-2-0-0-1
     spec:
       nodeSelector:
-        "beta.kubernetes.io/os": linux
+        "kubernetes.io/os": linux
       containers:
-        - name: rujche-api
-          image: acrchenrujun.azurecr.io/rujche-api:latest
+        - name: rujche-api-1
+          image: acrchenrujun.azurecr.io/rujche-api:2.0.0
           ports:
             - containerPort: 8080
               name: redis
@@ -24,9 +24,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: rujche-api
+  name: rujche-api-2-0-0-1
 spec:
   ports:
     - port: 6379
   selector:
-    app: rujche-api
+    app: rujche-api-2-0-0-1
