@@ -8,6 +8,8 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
+import static org.springframework.security.config.Customizer.withDefaults;
+
 @EnableWebSecurity
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
@@ -20,10 +22,18 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         // @formatter:off
-        http.authorizeRequests()
-                .anyRequest().authenticated()
-                .and()
-            .apply(configurer);
+
+        http
+                .formLogin(withDefaults())
+                .apply(configurer)
+                    .and()
+                .authorizeRequests()
+                    .antMatchers("/login", "/forgot-password/**", "/reset-password/**","/oAuth2")
+                        .permitAll()
+                    .anyRequest()
+                        .authenticated()
+                    .and()
+        ;
         // @formatter:on
     }
 }
