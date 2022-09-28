@@ -23,3 +23,5 @@ spring:
             profile-edit: ${PASSWORD_RESET_USER_FLOW_NAME}
             sign-up-or-sign-in: ${SIGN_UP_OR_SIGN_IN_FLOW_NAME}
 #          user-name-attribute-name: ${USER_NAME_CLAIM}
+  profiles:
+    active: develop
