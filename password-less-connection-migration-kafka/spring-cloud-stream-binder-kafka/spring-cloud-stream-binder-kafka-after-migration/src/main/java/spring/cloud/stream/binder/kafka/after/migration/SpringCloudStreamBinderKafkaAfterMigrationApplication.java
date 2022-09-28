@@ -12,6 +12,7 @@ import java.util.function.Supplier;
 public class SpringCloudStreamBinderKafkaAfterMigrationApplication {
 
     public static void main(String[] args) {
+        System.out.println("Current application version: 2.0.0.");
         SpringApplication.run(SpringCloudStreamBinderKafkaAfterMigrationApplication.class);
     }
 
