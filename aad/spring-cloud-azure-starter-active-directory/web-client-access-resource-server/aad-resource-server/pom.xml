@@ -4,22 +4,24 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.azure.spring</groupId>
-    <artifactId>azure-spring-boot-samples</artifactId>
-    <version>1.0.0</version>
-    <relativePath>../../../../pom.xml</relativePath>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.7.3</version>
+    <relativePath/>
   </parent>
 
-  <artifactId>spring-cloud-azure-starter-active-directory-resource-server</artifactId>
+  <artifactId>app-resource-server</artifactId>
   <version>1.0.0</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
-  <name>Spring-Cloud-Azure-Starter-Active-Directory Sample: Resource Server</name>
+
+  <name>Resourcen</name>
 
   <dependencies>
     <dependency>
       <groupId>com.azure.spring</groupId>
       <artifactId>spring-cloud-azure-starter-active-directory</artifactId>
+      <version>4.4.0</version>
     </dependency>
     <!-- spring boot starter dependencies. -->
     <dependency>
