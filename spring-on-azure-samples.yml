@@ -13,7 +13,7 @@
 #     2.1.3. Option B: Use the first H1 line (#) as name. Use he first 150 characters following the first H1 (#) line as description.
 #       2.1.3.1. Pros: After the sample owner known the rule about name and title. The search result can be updated automatically after he updated the first H1 and first 150 characters following first H1
 #     2.1.4. My choice: I prefer Option A. And let sample owner maintain the front-matter.
-#   2.2. Does sample name and description must contain "Spring", "Spring Boot", related Azure Services like Azure AD, Azure Spring Apps.
+#   2.2. Does sample name and description must contain "Spring", "Spring Boot", related Azure Services like Azure Active Directory, Azure Spring Apps.
 #     2.2.1. Option A: Always contains these words.
 #       2.2.1.1. Pros: Customer can get required sample by searching related key word. And the search result can give required information.
 #       2.2.1.2. Cons: Always contains these words sometimes will make the name too long, will make it hard to read.
@@ -62,25 +62,25 @@ aad:
     - aad-resource-server-by-filter: # Not a candidate because it's using deprecated feature.
     - aad-resource-server-by-filter-stateless: # Not a candidate because it's using deprecated feature.
     - aad-web-application-and-resource-server:
-      - name: Developing Spring Boot web application supports login by Azure AD account and expose REST API.
-        description: This sample demonstrates how to develop a Spring Boot web application supports login by Azure AD account and expose REST API at the same time.
+      - name: Developing Spring Boot web application supports login by Azure Active Directory account and expose REST API.
+        description: This sample demonstrates how to develop a Spring Boot web application supports login by Azure Active Directory account and expose REST API at the same time.
     - web-client-access-resource-server:
-      - name: Developing Spring Boot web application supports login by Azure AD account and access resource server.
-        description: This sample demonstrates how to develop a Spring Boot web application supports login by Azure AD account and access REST API protected by Azure AD.
+      - name: Developing Spring Boot web application supports login by Azure Active Directory account and access resource server.
+        description: This sample demonstrates how to develop a Spring Boot web application supports login by Azure Active Directory account and access REST API protected by Azure Active Directory.
   - spring-cloud-azure-starter-active-directory-b2c:
     - aad-b2c-resource-server:
-      - name: Developing REST API application developed by Spring Boot and protected by Azure AD B2C.
-        description: This sample demonstrates how to develop REST API application developed by Spring Boot and protected by Azure AD B2C.
+      - name: Developing REST API application developed by Spring Boot and protected by Azure Active Directory B2C.
+        description: This sample demonstrates how to develop REST API application developed by Spring Boot and protected by Azure Active Directory B2C.
     - aad-b2c-web-application:
-      - name: Developing Spring Boot web application supports login by Azure AD B2C account.
-        description: This sample demonstrates how to develop a Spring Boot web application supports login by Azure AD B2C account.
+      - name: Developing Spring Boot web application supports login by Azure Active Directory B2C account.
+        description: This sample demonstrates how to develop a Spring Boot web application supports login by Azure Active Directory B2C account.
   - spring-security:
     - reactive:
       - webflux:
         - oauth2:
           - spring-cloud-gateway:
-            - name: Protecting REST API behind gateway by validating token issued by Azure AD in gateway.
-              description: This sample demonstrates how to protect REST API behind gateway by validating token issued by Azure AD in gateway.
+            - name: Protecting REST API behind gateway by validating token issued by Azure Active Directory in gateway.
+              description: This sample demonstrates how to protect REST API behind gateway by validating token issued by Azure Active Directory in gateway.
     - servlet:
       - oauth2:
         - client-access-multiple-resource-server:
@@ -90,17 +90,17 @@ aad:
           - name: Developing a web application that can access resource-server.
             description: This sample demonstrates how to develop a web application that can access resource-server.
         - login:
-          - name: Developing a web application supports login by Azure AD account.
-            description: This sample demonstrates how to develop a web application supports login by Azure AD account.
+          - name: Developing a web application supports login by Azure Active Directory account.
+            description: This sample demonstrates how to develop a web application supports login by Azure Active Directory account.
         - login-authenticate-using-private-key-jwt:
-          - name: Developing a web application supports login by Azure AD account via certificate.
-            description: This sample demonstrates how to develop a web application supports login by Azure AD account via certificate.
+          - name: Developing a web application supports login by Azure Active Directory account via certificate.
+            description: This sample demonstrates how to develop a web application supports login by Azure Active Directory account via certificate.
         - resource-server-check-permissions-by-claims-in-access-token:
           - name: Developing a REST API that can check permission by claims in token.
             description: This sample demonstrates how to develop a REST API that can check permission by claims in token.
         - resource-server-support-on-behalf-of-flow:
-          - name: Developing a REST API that can require a new token to access another REST API protected by Azure AD.
-            description: This sample demonstrates how to develop a REST API that can require a new token to access another REST API protected by Azure AD.
+          - name: Developing a REST API that can require a new token to access another REST API protected by Azure Active Directory.
+            description: This sample demonstrates how to develop a REST API that can require a new token to access another REST API protected by Azure Active Directory.
 appconfiguration:
   - azure-spring-cloud-appconfiguration-config:
     - azure-spring-cloud-appconfiguration-config-convert-sample:
